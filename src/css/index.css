@@ -1,0 +1,159 @@
+.imagem-slider{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-slider .slide{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s ease-out;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.imagem-slider .slide.mostrar{
+    opacity: 1;
+}
+
+.slide-rosa {
+    background-image: url(../img/back.jpg);
+}
+.slide-verde {
+    background-image: url(../img/back.jpg);
+}
+.slide-laranja {
+    background-image: url(../img/back.jpg);
+}
+.slide-azul {
+    background-image: url(../img/back.jpg);
+}
+
+.agent{
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(50%, 0%);
+    height: 50rem;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+    margin-top: 20px;
+}
+.agent2{
+    opacity: 1;
+    visibility: inherit;
+    transform: translate(60%, 0%);
+    height: 50rem;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 50%;
+    z-index: 1;
+    margin-top: 20px;
+}
+
+.seta-voltar, .seta-avancar {
+    position: absolute;
+    z-index: 1;
+}
+
+.seta-voltar{
+    left: 4%;
+    transform:rotateY(180deg);
+}
+
+.seta-avancar{
+    right: 4%;
+}
+
+.seta-voltar .imagem-seta, .seta-avancar .imagem-seta{
+    width: 50px;
+    height: 50px;
+}
+
+.opacidade{
+    opacity: 0.6;
+    cursor: default;
+}
+
+.conteudo{
+    display: block;
+    background-color: #9b9797;
+    margin-left: 180px;
+    padding: 65px 60px;
+    width: 620px;
+    border-radius: 10px;
+}
+
+.conteudo .titulo {
+    /* margin-bottom: 80px; */
+    font-size: 5rem;
+    font-weight: 400;
+}
+
+.conteudo .texto {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.conteudo .botao {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.botao.rosa {
+    color: red;
+}
+.botao.verde {
+    color: rgb(12, 136, 1);
+}
+.botao.verdeC {
+    color: rgb(134, 230, 125);
+}
+.botao.laranja {
+    color: rgb(211, 115, 6);
+}
+.botao.azul {
+    color: rgb(0, 81, 255);
+}
+.botao.azulC {
+    color: rgb(87, 135, 238);
+}
+.botao.branco{
+    color: white;
+}
+.botao.roxo{
+    color: rgb(147, 0, 160);
+}
+.botao.amarelo{
+    color: rgb(214, 211, 3);
+}
+.botao.escuro{
+    color: rgb(2, 3, 59);
+}
+.botao.cinza{
+    color: #504f4f;
+}
+.subtitulo{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+.icone{
+    display: flex;
+    transform: translate(0px, 0px);
+    opacity: 0.9;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+
+}
