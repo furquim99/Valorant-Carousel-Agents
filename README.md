@@ -16,7 +16,7 @@ resumo bem rapido sobre os personagens.
 
 - HTML 
 - CSS
--Javascript
+- Javascript
 
 ## 🖊 Autor: Fabio Eduardo Furquim
 
